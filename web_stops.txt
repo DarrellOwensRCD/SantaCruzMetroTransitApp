@@ -1,0 +1,729 @@
+2702-Santa Cruz Metro Center - Lane 2|4747904
+Front & Soquel Ave|4747877
+River (River/Front Garage)|4747487
+River & N Pacific Ave|4747488
+River & Josephine|4747489
+Encinal & River|4747336
+Encinal & Sylvania Ave|4747892
+Encinal & Dubois|4747875
+Dubois & Harvey West Blvd|4747770
+Harvey West Blvd (Harvey West Park)|4747735
+Harvey West Blvd & Sylvania Ave (Costco)|4747867
+Coral (Granite Rock)|4747301
+Vernon & River (METRO Admin Offices)|4747940
+River & Golf Club Dr (City Corp. Yard)|4747490
+Coral & River|4747302
+River & Josephine|4747756
+Front & Pacific Ave|4747851
+Front & Soquel Ave|4747740
+Santa Cruz Metro Center|4747902
+Santa Cruz Metro Center - Lane 1|4747903
+Cedar & Cathcart|4747722
+Cedar & Walnut Ave|4747723
+Cedar & Center|4747721
+Mission & Sylvar|4747629
+Highland Ave & Escalona Dr|4747395
+High & Highland Ave|4747394
+High & Laurent|4747393
+High & Moore|4747392
+High & Cardiff Pl|4747631
+Bay & High (UCSC - Main Entrance)|4747299
+Coolidge Dr & Hagar Ct  (UCSC - Lower Campus)|4747300
+Hagar Dr & Village Rd (UCSC - The Farm)|4747879
+Hagar Dr (UCSC - East Remote Parking)|4747387
+Hagar Dr (UCSC - East Field House)|4747634
+Hagar Dr (UCSC - Bookstore, Cowell & Stevenson)|4747635
+McLaughlin Dr (UCSC - Crown & Merrill College)|4747442
+McLaughlin Dr (UCSC - College 9 & 10 / Health Ctr)|4747441
+McLaughlin Dr (UCSC - Science Hill)|4747440
+Heller Dr & McLaughlin Dr (UCSC - Kresge College)|4747389
+Heller Dr (UCSC - Rachel Carson College & Porter)|4747779
+Heller Dr (UCSC - Family Student Housing)|4747813
+Heller Dr (UCSC - Oakes College)|4747388
+Empire Grade (UCSC - Arboretum)|4747726
+High (Tosca Terrace)|4747938
+High & Western Dr|4747390
+High & Bay Dr|4747803
+High & Cardiff Pl|4747632
+High & Moore|4747391
+High & Laurent|4747630
+Storey & Escalona Dr|4747755
+Mission & Union|4747869
+Mission & Sylvar|4747453
+Laurel & Center|4747438
+Laurel & Blackburn|4747930
+Mission & Laurel|4747450
+Bay & Mission|4747241
+Bay & King|4747242
+Bay & Escalona Dr|4747243
+Bay Dr & Iowa Dr|4747244
+Bay Dr & Meder|4747246
+High & Bay Dr (UCSC - Main Entrance)|4747747
+High & Western Dr|4747746
+Empire Grade (UCSC - Arboretum)|4747322
+Heller Dr (UCSC - Oakes College)|4747880
+Heller Dr (UCSC - Rachel Carson College & Porter)|4747881
+Heller Dr (UCSC - Kerr Hall)|4747882
+Heller Dr & McLaughlin Dr (UCSC - Kresge College)|4747883
+McLaughlin Dr (UCSC - Science Hill)|4747884
+McLaughlin Dr (UCSC - College 9 & 10 / Health Ctr)|4747885
+Hagar Dr (UCSC - Bookstore, Cowell & Stevenson)|4747886
+Hagar Dr (UCSC - East Remote Parking)|4747887
+Hagar Dr & Village Rd (UCSC - The Farm)|4747888
+Coolidge Dr & Hagar Ct  (UCSC - Lower Campus)|4747889
+Bay Dr & High|4747748
+Bay & Nobel Dr|4747245
+Bay & King|4747627
+Mission & Trescony|4747448
+Mission & Laurel|4747449
+Laurel & Blackburn|4747437
+Laurel & Chestnut|4747825
+Mission & Olive|4747447
+Mission & Miramar Dr (Almar Shopping Ctr)|4747444
+Mission & King|4747733
+Western Dr & Beachview Ave|4747734
+Western Dr & Flower|4747609
+Western Dr & Western Ct|4747754
+Western Dr & Monarch Way|4747610
+Western Dr & Meder|4747611
+Western Dr & Meder|4747870
+Western Dr & Monarch Way|4747871
+Western Dr & Western Ct|4747872
+Western Dr & Cypress Park|4747873
+Western Dr & Flower|4747874
+Mission & Swift|4747846
+Mission & Miramar Dr (Almar Shopping Ctr)|4747443
+Mission & Palm (Palm Center)|4747446
+Pacific Ave & Center|4747899
+Pacific Ave & Viaduct Ln|4747836
+Bay & West Cliff Dr|4747829
+Bay & Laguna|4747830
+Bay (La Barranca Park)|4747831
+Bay (Neary Lagoon Park)|4747236
+Bay & California|4747716
+Bay & Seaside|4747238
+Bay & Mission (Bay View School)|4747240
+Bay & Seaside|4747239
+Bay & Redwood|4747237
+Bay (Garfield Park Village)|4747235
+Bay & National|4747832
+Bay & Laguna|4747833
+Bay & West Cliff Dr|4747834
+Pacific Ave & 2nd|4747837
+Delaware Ave & Centennial|4747896
+Delaware Ave & National|4747924
+Delaware Ave & Woodrow Ave|4747310
+Delaware Ave & Surfside Ave|4747308
+Delaware Ave & Fair Ave|4747767
+Delaware Ave & Swift|4747727
+Natural Bridges Dr & Delaware Ave|4747920
+Natural Bridges Dr & Mission|4747918
+Natural Bridges Dr & Mission|4747917
+Natural Bridges D |4747919
+Delaware Ave & Swanton Blvd|4747939
+Delaware Ave & Swift|4747306
+Delaware Ave & Fair Ave|4747337
+Delaware Ave & Almar Ave|4747307
+Delaware Ave & Bethany Curve|4747628
+Delaware Ave & Woodrow Ave|4747309
+Delaware Ave & Columbia|4747898
+Delaware Ave & Liberty|4747897
+Delaware Ave & Natural Bridges Dr|4747305
+McAllister Way (Coastal Biology Building)|4747944
+McAllister Way (Seymour Center)|4747941
+McAllister Way (Coastal Biology Building) (2)|4986546
+Delaware Ave (De Anza Santa Cruz) (2)|4994738
+McAllister Way (Coastal Biology Building)|4747945
+Delaware Ave (De Anza Santa Cruz)|4747304
+Delaware Ave & Natural Bridges Dr|8135622
+McAllister Way (Coastal Biology Building)|8135628
+McAllister Way (Seymour Center)|8135629
+McAllister Way (Coastal Biology Building)|8135630
+Delaware Ave (De Anza Santa Cruz) (2)|8135631
+Highway 9 & Middleton Ave (Big Basin)|4747812
+Bear Creek Rd & Deerwood Dr|4747619
+Highway 9 (SLV High School)|4747895
+Highway 9 & El Solyo Heights Dr|4747403
+Highway 9 & Sunnycroft Rd|4747405
+Glen Arbor Rd & Hermosa Ave|4747371
+Glen Arbor Rd & Azalea Ave|4747373
+Glen Arbor Rd & Hihn Rd|4747382
+Glen Arbor Rd & Quail Hollow Rd|4747375
+Glen Arbor Rd & River|4747640
+Glen Arbor Rd & Madrone Ave|4747378
+Glen Arbor Rd & Hillcrest Ave|4747379
+Glen Arbor Rd & Locust|4747380
+Glen Arbor Rd & Pine|4747374
+Glen Arbor Rd & Highway 9|4747715
+Highway 9 & Main|4747413
+Highway 9 & Brown Gables Rd|4747414
+Highway 9 & California Dr|4747416
+Highway 9 & Larkspur|4747419
+Highway 9 & Pacific|4747421
+Highway 9 & Irwin Way|4747423
+Highway 9 & River|4747425
+Highway 9 & Mountain|4747426
+Highway 9 & Monaco Ln|4747428
+Highway 9 & Cresta Dr|4747429
+Highway 9 & Brookside Dr|4747777
+Pool Dr & Highway 9 (Mountain Store)|4747470
+Highway 9 & Teihl|4747758
+Highway 9 & Quigg Way|4747753
+Highway 9 & Sylvan Ave|4747432
+Highway 9 (Highlands Park)|4747407
+Highway 9 & Shadowbrook Rd|4747409
+Highway 9 & Hillside Ave|4747411
+Big Basin Way & Highway 9|4747247
+Big Basin Way & Boulder Brook Dr|4747248
+Big Basin Way & Ridge Dr (Forest Pool)|4747250
+Big Basin Way (Brackenbrae Br)|4747251
+Big Basin Way & Acorn Dr|4747252
+Big Basin Way & Fallen Leaf Dr|4747254
+Big Basin Way (Country Club)|4747778
+Big Basin Way & China Grade Rd|4747140
+Ocean (Pacific School)|4747620
+Hwy 1 & Bonny Doon Rd|4747845
+Hwy 1 & Coast Rd|4747397
+Mission & Shaffer Rd|4747900
+Mission & Rigg|4747451
+Walnut Ave & California|4747596
+Walnut Ave & Chestnut|4747598
+Walnut Ave & Center|4747720
+Cedar & Lincoln|4747724
+Santa Cruz Metro Center - Lane 3|4747905
+Walnut Ave & Center|4747599
+Walnut Ave & Chestnut|4747597
+Walnut Ave & California|4747595
+Mission & Otis|4747452
+Hwy 1 & Western Dr|4747633
+Hwy 1 & Davenport Ave (Cash Store)|4747396
+Bonny Doon Rd & Pine Flat Rd|4747645
+Pine Flat Rd & Quail Dr|4747745
+Pine Flat Rd (Bonny Doon Elementary)|4747646
+Pine Flat Rd & Kelly Ln|4747647
+Pine Flat Rd (#2300)|4747808
+Pine Flat Rd (#2572)|4747809
+Pine Flat Rd (#2878)|4747810
+Pine Flat Rd & Comstock Ln|4747650
+Pine Flat Rd & Empire Grade|4747467
+Empire Grade & Granger Rd|4747334
+Empire Grade & Sunlit Ln|4747333
+Empire Grade & Wild Iris Ln|4747331
+Empire Grade & Felton Empire Rd|4747330
+Empire Grade & Pineridge Rd|4747326
+Empire Grade & Smith Grade Rd|4747325
+Empire Grade (#2519)|4747725
+Empire Grade (UCSC path)|4747643
+Empire Grade & Heller Dr|4747323
+Empire Grade (Waldorf School)|4747324
+Empire Grade (at Mile 1306)|4747805
+Empire Grade & Smith Grade Rd|4747644
+Empire Grade & Pineridge Rd|4747327
+Empire Grade & McGivern Way|4747328
+Empire Grade & Felton Empire Rd|4747329
+Empire Grade & Feather Ln|4747332
+Empire Grade & Sunlit Ln|4747776
+Empire Grade (Bonny Doon Airport)|4747806
+Empire Grade & Rustic Ln|4747335
+Pine Flat Rd & Empire Grade|4747468
+Pine Flat Rd & Atherley Ln|4747648
+Pine Flat Rd & Comstock Ln|4747649
+Pine Flat Rd (#2175)|4747651
+Pine Flat Rd & Bonny Doon Rd|4747652
+Bonny Doon Rd & Phillips Ranch Rd (Mc Henry Vnyd)|4747258
+Bonny Doon Rd (Mc Henry Vineyard)|4747772
+Bonny Doon Rd & Thayer Rd|4747642
+Bonny Doon Rd (Country Estates Terrace)|4747259
+Bonny Doon Rd & Cathedral Park Dr|4747807
+Pine Flat Rd & Quail Dr (2373)|8217081
+Pine-Flat Rd (Bonny Doon Elementary) (2)|4986548
+Capitola Mall - Lane 2|4747949
+Capitola Rd & 41st Ave|4747287
+Capitola Rd & 44th Ave|4747289
+Capitola Rd & 47th Ave|4747291
+Stockton Ave & Esplanade|4747591
+Capitola Ave & Bay Ave|4747901
+Capitola Ave & Hill|4747273
+Capitola Ave & Gary|4747274
+Soquel Dr & Capitola Ave|4747554
+Soquel Dr & Orchard|4747557
+Soquel Dr & Silver Birch Ln|4747559
+Soquel Dr & Monterey Ave|4747561
+Soquel Dr & Park Ave|4747564
+Soquel Dr & Willowbrook Ln|4747565
+Soquel Dr & Lower Perimeter Rd (Sesnon House)|4747923
+Soquel Dr & Cabrillo College Dr|4747569
+Soquel Dr & Borregas Dr|4747570
+Soquel Dr & Vienna Dr (Mar Vista Elem)|4747572
+Soquel Dr & Mar Vista Dr|4747574
+Soquel Dr & Heather Terrace|4747847
+Soquel Dr & W Ledyard Way|4747576
+Soquel Dr & State Park Dr|4747577
+State Park Dr & Hillcrest Dr|4747589
+Center Ave & East|4747292
+Center Ave & Santa Clara Ave|4747293
+Center Ave & El Camino Del Mar|4747294
+Center Ave & Sea Terrace Way|4747702
+Treasure Island Dr & Winfield Way|4747594
+Aptos Beach Dr & Marina Ave|4747232
+Rio Del Mar Blvd & Kingsbury Dr|4747481
+Rio Del Mar Blvd & Highland Dr|4747482
+Rio Del Mar Blvd & Martin Dr|4747483
+Rio Del Mar Blvd & Sumner Ave|4747484
+Rio Del Mar Blvd & Palmer Ave|4747485
+Rio Del Mar Blvd & Clubhouse Dr|4747486
+Clubhouse Dr & Murray Ave|4747298
+Clubhouse Dr & Los Altos Dr|4747297
+Clubhouse Dr & Locke Dr|4747296
+Clubhouse Dr & St Andrews Dr|4747295
+Clubhouse Dr & Pinehurst Dr|4747625
+Sumner & Seabreeze/Clubhouse|4747593
+Sumner Ave & Dolphin Dr|4747592
+Seascape Blvd & Sumner Ave|4747713
+Seascape Blvd & Vineyard Ct|4747514
+Seascape Blvd & Dolphin Dr|4747515
+Via Pacifica & Cabo Court|4747890
+Seascape Blvd & Via Pacifica|4747782
+Soquel Dr & E Ledyard Way (Aptos Library)|4747578
+Soquel Dr & W Ledyard Way|4747575
+Soquel Dr & Terrace Dr|4747827
+Soquel Dr & Mar Vista Dr|4747573
+Soquel Dr & Calabria|4747571
+Soquel Dr & Cabrillo College Dr|4747568
+Soquel Dr & Porter Gulch Rd|4747567
+Soquel Dr & Merrill Rd|4747566
+Soquel Dr & Park Ave|4747563
+Soquel Dr & Maplethorpe Ln|4747562
+Soquel Dr & Cunnison Ln|4747560
+Soquel Dr & Fairway Dr|4747558
+Soquel Dr & Browns Ln|4747556
+Capitola Ave & Hill|4747943
+Hill & Crossroads Loop|4747815
+Bay Ave & Hill|4747234
+Bay Ave & Capitola Ave|4747233
+Stockton Ave & Esplanade|4747590
+Capitola Rd & 49th Ave|4747840
+Capitola Rd & 43rd Ave|4747290
+Capitola Rd & 41st Ave|4747288
+Capitola Mall|4747947
+Santa Cruz Metro Center - Lane 4|4747906
+Water (Governmental Center)|4747600
+Water & Ocean|4747601
+Water & Market|4747604
+Water & N Branciforte Ave|4747606
+Water & Poplar Ave|4747929
+Soquel Ave & Frederick|4747528
+Soquel Ave & Hagemann Ave|4747530
+Soquel Ave & Park Way|4747533
+7th Ave & Capitola Rd|4747618
+7th Ave & Cambria Ln|4747617
+7th Ave & Harbor Cove|4747614
+Brommer (Sorrento Oaks)|4747267
+Brommer & El Dorado Ave|4747269
+Brommer & 17th Ave|4747271
+17th Ave & Brommer|4747669
+17th Ave & Felt|4747670
+17th Ave & Merrill|4747671
+17th Ave & Tremont Dr|4747817
+Portola Dr & 18th Ave|4747471
+Portola Dr & 21st Ave|4747473
+Portola Dr & 24th Ave (Live Oak Library)|4747474
+Portola Dr & 26th Ave (Trailer Haven)|4747475
+Portola Dr & 30th Ave|4747477
+Portola Dr & 37th Ave|4747480
+38th Ave & Avis Ln|4747660
+38th Ave & Roland|4747662
+38th Ave (Capitola Manor)|4747664
+38th Ave & Reposa (Blue & Gold)|4747666
+38th Ave (King's Plaza)|4747667
+Capitola Rd & 41st Ave|4747286
+41st Ave & Capitola Rd|4747654
+Capitola Mall - Lane 1|4747948
+41st Ave (King's Plaza)|4747668
+38th Ave (Blue & Gold)|4747665
+38th Ave (Castle Mobile Estate)|4747663
+38th Ave & Tranquility Ct|4747661
+Portola Dr & 37th Ave|4747479
+Portola Dr & 35th Ave|4747478
+Portola Dr & 30th Ave|4747476
+Portola Dr & Corcoran Ave|4747675
+Portola Dr & Clearwater Ct|4747472
+Portola Dr & 18th Ave|4747844
+17th Ave & Matthews Ln|4747672
+17th Ave & Merrill|4747673
+17th Ave & Felt|4747674
+17th Ave & Kinsley|4747676
+Brommer & 17th Ave|4747272
+Brommer & El Dorado Ave|4747270
+Brommer & Odyssey Ct|4747718
+Brommer & Captains Ct|4747268
+7th Ave & Manor Way (Yacht Harbor Manor)|4747615
+7th Ave & Eddy Ln (Inland Harbor)|4747616
+7th Ave & Tanner Ct|4747931
+Capitola Rd & 7th Ave|4747275
+Soquel Ave & Park Way|4747532
+Soquel Ave & Trevethan Ave|4747531
+Soquel Ave & San Juan Ave|4747529
+Water & Poplar Ave|4747608
+Water & Seabright Ave|4747607
+Water & N Branciforte Ave|4747605
+Water & Market|4747603
+Water & Ocean|4747602
+River & Front|4747369
+Soquel Ave & La Fonda Ave|4775883
+7th Ave (Casa La Familia)|4747736
+Soquel Ave & 7th Ave|4747536
+Soquel Ave & La Fonda Ave|4747534
+Broadway & Clay|4747261
+Broadway & Ocean|4747263
+Broadway & S Branciforte Ave|4747712
+Broadway & Pine|4747264
+Broadway & Cayuga|4747265
+Seabright Ave & Windsor|4747513
+Seabright Ave & Windham|4747511
+Seabright Ave & Clinton|4747510
+Seabright Ave & Logan|4747507
+Murray & Seabright Ave|4747462
+Lake Ave & Lago Ln|4747436
+5th Ave (Harbormaster)|4747435
+E Cliff Dr & 15th Ave|4747314
+Portola Dr & 41st Ave|4747866
+41st Ave & Bain Ave|4747653
+41st Ave (Begonia Plaza)|4747738
+41st Ave (Four Star Center)|4747781
+41st Ave & Brommer|4747655
+41st Ave & Gladys Ave|4747864
+Portola Dr & 41st Ave|4747865
+E Cliff Dr (East Cliff Village)|4747313
+E Cliff Dr & 13th Ave|4747312
+7th Ave & Bonnie|4747612
+7th Ave & Dolores|4747613
+Eaton & 5th Ave|4747315
+Seabright Ave & Murray|4747506
+Seabright Ave & Hall|4747508
+Seabright Ave & Clinton|4747509
+Seabright Ave & Windsor|4747512
+Broadway & Seabright Ave|4747266
+Broadway & Cayuga|4747710
+Broadway & S Branciforte Ave|4747711
+Broadway & Clay|4747262
+Broadway & Riverside Ave|4747260
+Soquel Ave & Front|4747876
+Soquel Ave & Riverside Ave|4747518
+Soquel Ave & Ocean|4747520
+Soquel Ave & Caledonia|4747878
+Soquel Ave & Cayuga|4747524
+Soquel Ave & Seabright Ave|4747526
+Soquel Ave & Darwin|4747677
+Capitola Rd & 7th Ave|4747276
+Capitola Rd & El Dorado Ave|4747277
+Capitola Rd & Leila Court|4747861
+Capitola Rd & 17th Ave|4747279
+Capitola Rd & Woodrose Ave|4747281
+Capitola Rd & 30th Ave|4747283
+Capitola Rd & Thompson Ave|4747285
+41st Ave & Clares|4747656
+Neilson & Airport Blvd (Wats. Hospital)|4747792
+Hanger Way & Neilson|4747848
+Airport Blvd & Holm Rd|4747854
+Airport Blvd & Ross Ave|4747226
+Airport Blvd & Airport Rd|4747146
+Freedom Blvd & Airport rd|4747868
+Freedom Blvd & Roache Rd|4747693
+Freedom Blvd & Davis Ave|4747180
+Freedom Blvd & Sydney Av|4747178
+Freedom Blvd & Crestview Dr|4747858
+Lincoln & Prospect|4747936
+Lincoln & Stanford|4747622
+Lincoln & California|4747623
+Lincoln & E 5th|4747624
+E Lake & Lincoln St|4747765
+E Lake & Sudden|4747172
+W Lake Ave & Main|4747678
+Watsonville Transit Center|4747950
+Watsonville Transit Center - Lane 1|4747951
+E Beach & Marchant|4747168
+Lincoln & E 5th|4747794
+Lincoln & Palm Ave|4747795
+Lincoln & E High|4747796
+Freedom Blvd & Crestview Dr (Court House)|4747859
+Freedom Blvd & Atkinson Ln|4747177
+Freedom Blvd & Blanca Ln|4747179
+Freedom Blvd (K-Mart)|4747838
+Freedom Blvd & Green Valley Rd|4747181
+Freedom Blvd & Airport Blvd (Freedom Centre)|4747182
+Airport Blvd & Freedom|4747797
+Airport Blvd (Airport)|4747147
+Airport Blvd & Holm Rd|4747149
+Hangar Way & Airport Blvd|4747206
+Neilson & Airport Blvd (Wats. Hospital)|4747849
+41st Ave & Gross Rd|4747658
+Capitola Rd & Clares|4747749
+Capitola Rd & 30th Ave|4747284
+Capitola Rd & Maciel Ave|4747282
+Capitola Rd & 17th Ave (Live Oak Senior Ctr)|4747280
+Capitola Rd & 16th Ave|4747732
+Capitola Rd & Foster Ct|4747731
+Capitola Rd & Jose Ave|4747278
+Soquel Ave & Poplar Ave|4747527
+Soquel Ave & Seabright Ave|4747525
+Soquel Ave & Benito Ave|4747523
+Soquel Ave & Pine|4747522
+Soquel Ave & Ocean View Dr (Branciforte Plaza)|4747521
+Soquel Ave & Ocean|4747519
+Soquel Ave & Front|4747741
+41st Ave (Home Depot)|4747657
+Soquel Dr & 41st Ave|4747548
+Soquel Dr & Daubenbiss Ave|4747549
+Soquel Dr & Main|4747552
+Soquel Dr & E Walnut|4747553
+ Main & S Green Valley Rd|4755184
+Main & Ohlone Pkwy|4747214
+Main & Pennsylvania Dr|4747212
+Rodriguez & Main (The Pines Apts)|4747685
+Rodriguez & Main (The Pines Apts)|4747679
+Main & Pennsylvania Dr|4747933
+Main & Clifford Ave|4747213
+Main & S Green Valley Rd|4747215
+Soquel Dr & Capitola Ave|4747555
+Soquel Dr & Main|4747551
+Soquel Dr & Daubenbiss Ave|4747550
+41st Ave & Cordelia Ln|4747659
+Herman Ave (Rolling Hills Middle School)|4747207
+Herman & Rolling Hills Junior High School|8329880
+Airport Blvd (Freedom Centre)|4747150
+Green Valley Rd & Holohan Rd (The Towers)|4747193
+Green Valley Rd & Stewart Ave|4747927
+Freedom Blvd & Marin|4747821
+Freedom Blvd & Miles Ln|4747784
+Freedom Blvd & Portola Cir|4747783
+Freedom Blvd & W High|4747785
+Freedom Blvd & Brennan|4747860
+Main & W 5th|4747786
+Soquel Ave & La Fonda Ave|4747535
+Soquel Ave & 7th Ave|4747537
+Soquel Dr & Paul Sweet Rd|4747752
+Soquel Dr (Dominican Hospital)|4747539
+Soquel Dr & Mission Dr|4747541
+Soquel Dr & Chanticleer Ave|4747742
+Soquel Dr & Winkle Ave|4747544
+Soquel Dr & Research Park Dr|4747932
+Soquel Dr (Rancho Del Mar Center)|4747579
+Soquel Dr & Trout Gulch Rd|4747582
+Soquel Dr (Creekside Offices)|4747584
+Soquel Dr (Aptos Gateway)|4747586
+Soquel Dr & Monroe Ave (Auto Center)|4747588
+Freedom Blvd & Soquel Dr|4747342
+Freedom Blvd (Aptos High School)|4747344
+Freedom Blvd & Valencia Rd|4747346
+Freedom Blvd & McDonald Rd|4747348
+Freedom Blvd & Parkhurst Cir|4747350
+Freedom Blvd (#5620)|4747352
+Freedom Blvd & Day Valley Rd|4747355
+Freedom Blvd & La Vida Dr|4747356
+Freedom Blvd & Willow Heights|4747358
+Freedom Blvd & White Rd (Scott Park)|4747360
+Freedom Blvd & Corralitos Rd|4747362
+Freedom Blvd (Manns Apples)|4747364
+Freedom Blvd (#2718)|4747862
+Freedom Blvd (#2672)|4747762
+Freedom Blvd (Rider Apples)|4747366
+Freedom Blvd (Filipino Community Center)|4747368
+Freedom Blvd & Bowker Rd|4747185
+Freedom Blvd & Emme|4747183
+Watsonville Transit Center - Lane 2|4747952
+Main & Ford|4747894
+Freedom Blvd & Brennan|4747175
+Freedom Blvd & Stanford|4747176
+Green Valley Rd & Freedom Blvd|4747192
+Green Valley Rd & Carnation Dr (Medical Plaza)|4747195
+Green Valley Rd & Holohan Rd (The Towers)|4747194
+Airport Blvd (Freedom Centre)|4747760
+Freedom Blvd & Compton Ter|4747184
+Freedom Blvd & Bowker Rd|4747186
+Freedom Blvd (Filipino Community Center)|4747367
+Freedom Blvd (Rider Apples)|4747365
+Freedom Blvd (#2672)|4747761
+Freedom Blvd (#2716)|4747839
+Freedom Blvd (Manns Apples)|4747363
+Freedom Blvd & Corralitos Rd|4747361
+Freedom Blvd & Eagle Ridge (Scott Park)|4747359
+Freedom Blvd & Pleasant Valley Rd|4747357
+Freedom Blvd & Day Valley Rd|4747354
+Freedom Blvd (#5310)|4747353
+Freedom Blvd (#5620)|4747351
+Freedom Blvd & Parkhurst Cir|4747349
+Freedom Blvd & McDonald Rd|4747347
+Freedom Blvd & Valencia Rd|4747345
+Freedom Blvd (Aptos High School)|4747343
+Freedom Blvd & Soquel Dr|4747341
+Soquel Dr & Monroe Ave (Auto Center)|4747626
+Soquel Dr & Jaunell Rd|4747587
+Soquel Dr & Monroe Ave|4747585
+Soquel Dr (Creekside Offices)|4747583
+Soquel Dr & Trout Gulch Rd|4747581
+Soquel Dr & State Park Dr|4747580
+Soquel Dr & 41st Ave|4747547
+Soquel Dr & Rodeo Gulch Rd|4747546
+Soquel Dr & Dover Dr|4747545
+Soquel Dr & Winkle Ave|4747543
+Soquel Dr & Thurber Ln|4747542
+Soquel Dr & Mission Dr|4747540
+Soquel Dr (Dominican Hospital)|4747538
+Clifford Ave & Evelyn Ave|4747689
+Clifford Ave & Crescent Dr|4747788
+Clifford Ave & Melrose Ave|4747160
+Clifford Ave (Clifford Manor)|4747158
+Clifford Ave & Montebello Dr|4747789
+Clifford Ave & Sherwood Ct|4747852
+Main & Auto Center Dr|4747211
+Main & Rodriguez|4747210
+Main & Rodriguez|4747719
+Clifford Ave & Montebello Dr|4747853
+Clifford Ave & Rosewood Dr|4747791
+Clifford Ave & Lassen Way|4747159
+Clifford Ave & Crescent Dr|4747161
+Clifford Ave & Freedom Blvd|4747162
+Rodriguez & W 5th|4747224
+Rodriguez & Ford|4747225
+Westgate Dr & Technology Dr (Social Security)|4747937
+Anna & Hanger Way|4747688
+Anna & Holm Rd|4747793
+Shady Oaks Dr & Anna|4747227
+Shady Oaks Dr & Jeanette Way|4747228
+Sunnyhills Dr & Shady Oaks Dr|4747229
+Holly Dr & Airport Rd|4747916
+Loma Prieta Ave & Holly Dr|4747802
+S Green Valley Rd & Pennsylvania Dr|4747191
+Green Valley Rd & Holohan Rd|4747773
+Green Valley Rd (Hispanic SDA Church)|4747775
+Amesti Rd & Green Valley Rd (Amesti School)|4747151
+Amesti Rd & Paraiso Dr|4747680
+Amesti Rd & Mann Ave|4747152
+Amesti Rd & E Rianda Rd|4747681
+Amesti Rd & Alaga Ln|4747682
+Amesti Rd & Bollinger Pl|4747153
+Amesti Rd & Pioneer Rd|4747683
+Green Valley Rd & Kliewer Ln|4747709
+Green Valley Rd & Mesa Verde Dr|4747828
+Green Valley Rd & Poultry Ln (Mesa Village)|4747695
+Green Valley Rd & Rancho Todos Santos Rd|4747205
+Green Valley Rd & Klassen Ln|4747202
+Green Valley Rd & Trembly Ln|4747696
+Green Valley Rd & Devon Ln|4747780
+Green Valley Rd & Mello View Ln|4747199
+Green Valley Rd & Behler Rd (Pinto Lake Pk)|4747697
+Green Valley Rd & Amesti Rd|4747196
+Green Valley Rd & Airport Blvd|4747774
+S Green Valley Rd & Carey Ave|4747763
+S Green Valley Rd & Loma Prieta Ave|4747925
+S Green Valley Rd & Hope Dr (Green Valley Village)|4747764
+S Green Valley Rd & Magnolia Dr|4747750
+S Green Valley Rd & Kralj Dr|4747787
+S Green Valley Rd & Melwood|4747188
+Rodriguez & Kearney|4747686
+S Green Valley Rd & Melwood|4747187
+ Green Valley Rd & Kralj Dr|4747751
+S Green Valley Rd & Oakridge|4747189
+S Green Valley Rd & Marantha Dr|4747692
+S Green Valley Rd & Hope Dr (Kingdom Hall)|4747190
+Browns Valley Rd & Corralitos Rd|4747157
+Corralitos Rd (Bradley Elementary)|4747166
+Corralitos Rd & Varni Rd|4747167
+Varni Rd & Amesti Rd|4747684
+W Beach (#600)|4747907
+Ohlone Pkwy & Lighthouse Dr|4747908
+Ohlone Pkwy & Loma Vista|4747909
+Ohlone Pkwy & Kingfisher Dr|4747910
+Ohlone Pkwy & Egret Ln|4747911
+Harkins Slough Rd (Pajaro Valley High School)|4747928
+S Green Valley Rd & Main|4747922
+Buena Vista Dr & Miller Ave|4747687
+Bowker Rd & Calabasas Rd|4747155
+Bowker Rd & Buena Vista Dr|4747154
+Manfre Rd & Buena Vista Dr|4747223
+Manfre Rd (#222)|4747222
+Manfre Rd & Lucerne Ave|4747221
+Manfre Rd & Larkin Valley Rd|4747220
+Ross Ave & Chappell Rd|4747798
+Ross Ave & Holly Dr|4747799
+Sunnyhills Dr & Shady Oaks Dr|4747766
+Shady Oaks Dr & Jeanette Way|4747800
+Anna & Herman Ave|4747691
+Herman Ave & Kralj Dr|4747690
+Kralj Dr & Lawrence Ave|4747209
+S Green Valley Rd & Main|4747818
+Ohlone Pkwy & Harkins Slough Rd|4747912
+Ohlone Pkwy & Kingfisher Dr|4747913
+Ohlone Pkwy & Loma Vista|4747914
+Ohlone Pkwy & Bree Ln|4747915
+W Beach & Industrial Rd|4747921
+Green Valley Rd & Amesti Rd|4747197
+Green Valley Rd & Behler Rd (Pinto Lake Pk)|4747198
+Green Valley Rd & Minto Rd|4747200
+Green Valley Rd & Celia Dr|4747694
+Green Valley Rd & Trembly Ln|4747201
+Green Valley Rd & Klassen Ln|4747203
+Green Valley Rd & Dalton Ln|4747204
+Mark Ave & Arroyo Dr|4747728
+Mark Ave & Hathaway Ave|4747729
+Mark Ave & Ponderosa Ave|4747730
+Green Valley Rd & Mesa Verde Dr|4747703
+Wheelock Rd & Casserly Rd|4747704
+Wheelock Rd (#102)|4747705
+Wheelock Rd & Gilchrist Ln|4747706
+Wheelock Rd (Monte Vista School)|4747707
+Wheelock Rd & Green Valley Rd|4747708
+Green Valley Rd & Litchfield Ln|4747739
+Loma Prieta Ave & Cherry Blossom Dr|4747801
+E Beach & Blackburn|4747169
+E Beach & Beck|4747170
+E Beach & Hushbeck Ave|4747171
+E Lake & Martinelli (East Lake Village)|4747174
+E Lake & Bridge|4747926
+Lakeview Rd & Parkwood Dr|4747208
+College Rd & Parker Dr|4747163
+College Rd & Taylor Rd (Drew Lake)|4747698
+College Rd & Cutter Dr|4747164
+College Rd & E Lake Ave|4747165
+E Lake & Nugent Ave|4747699
+E Lake & Wagner Ave|4747819
+E Lake & Martinelli (East Lake Village)|4747173
+Tuttle Ave & E Lake Ave|4747231
+Tuttle Ave & Cedar Dr|4747230
+Tuttle Ave & Bridge|4747700
+E Bronte Ave & Bridge|4747826
+E Bronte Ave & Ester Way|4747156
+Martinelli & Washington|4747219
+Martinelli & Bronson|4747218
+Martinelli & Brewington|4747217
+Madison & Crestview Dr (Crestview Garden)|4747790
+Crestview Dr & Freedom Blvd (Crestview Shopping)|4747621
+County Fairgrounds|5330830
+E Beach & Hushbeck|5330819
+E Beach & Beck|5330820
+E Beach & Blackburn|5330821
+Ocean & Water|4747463
+Highway 17 & Pasatiempo Dr|4747433
+Mt Hermon Rd & Kings Village Rd|4747459
+Cavallaro Transit Center (Scotts Valley)|4747850
+Mt Hermon Rd (Graham Plaza)|4747460
+Barack Obama Blvd & W San Carlos|4747127
+Barack Obama Blvd & Park Ave|4747145
+Diridon Station (Caltrain Depot)|4747129
+West Santa Clara & Delmas Ave|4747130
+West Santa Clara & Almaden Blvd|4747131
+East Santa Clara & S 1st|4747133
+E Santa Clara & S 6th (924)|5741597
+East San Fernando & S 7th|4747137
+E Santa Clara & N 5th (925)|5741603
+West Santa Clara & S Market|4747135
+West Santa Clara & Almaden Blvd|4747142
+West Santa Clara & Delmas Ave|4747136
+Barack Obama Blvd & Park Ave|4747138
+Barack Obama Blvd & W San Carlos|4747128
+Highway 17 & Pasatiempo Dr|4747434
+Scotts Valley Dr & Granite Creek Rd|4747814
+Scotts Valley Dr & Civic Center Dr|4747494
+Scotts Valley Dr & Disc Dr|4747495
+Scotts Valley Dr & Granite Creek Rd|4747503
