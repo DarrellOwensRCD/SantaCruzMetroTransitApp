@@ -1,0 +1,126 @@
+{
+	"LineList":[
+	{
+		"lineNum": "4",
+		"lineName": "River/Harvey West"
+	},
+	{
+		"lineNum": "10",
+		"lineName": "UCSC via Main Gate - High St"
+	},
+	{
+		"lineNum": "15",
+		"lineName": "UCSC via West Gate - Laurel"
+	},
+	{
+		"lineNum": "17",
+		"lineName": "Highway 17 Express"
+	},
+	{
+		"lineNum": "18",
+		"lineName": "UCSC via Main Gate - Mission"
+	},
+	{
+		"lineNum": "19",
+		"lineName": "UCSC via West Gate – Bay"
+	},
+	{
+		"lineNum": "20",
+		"lineName": "UCSC via Main Gate – Delaware/Western"
+	},
+	{
+		"lineNum": "35",
+		"lineName": "Highway 9/Scotts Valley",
+		"lineDirection": "outbound"
+	},
+	{
+		"lineNum": "35",
+		"lineName": "Highway 9/Scotts Valley",
+		"lineDirection": "inbound"
+	},
+	{
+		"lineNum": "35E",
+		"lineName": "Highway 9/Scotts Valley via Emeline",
+		"lineDirection": "outbound"
+	},
+	{
+		"lineNum": "35E",
+		"lineName": "Highway 9/Scotts Valley via Emeline",
+		"lineDirection": "inbound"
+	},
+	{
+		"lineNum": "40",
+		"lineName": "Highway 9/Scotts Valley via Emeline"
+	},
+	{
+		"lineNum": "41",
+		"lineName": "Empire Grade/Bonny Doon"
+	},
+	{
+		"lineNum": "42",
+		"lineName": "Davenport/Bonny Doon"
+	},
+	{
+		"lineNum": "44",
+		"lineName": "Cabrillo - Rio Del Mar"
+	},
+	{
+		"lineNum": "66",
+		"lineName": "Live Oak/17th"
+	},
+	{
+		"lineNum": "68",
+		"lineName": "Broadway/Portola"
+	},
+	{
+		"lineNum": "69A",
+		"lineName": "Capitola/Airport"
+	},
+	{
+		"lineNum": "69W",
+		"lineName": "Capitola/Cabrillo"
+	},
+	{
+		"lineNum": "71",
+		"lineName": "Soquel/Freedom"
+	},
+	{
+		"lineNum": "72",
+		"lineName": "Green Valley - Hospital"
+	},
+	{
+		"lineNum": "72W",
+		"lineName": "Green Valley - Corralitos Weekend"
+	},
+	{
+		"lineNum": "74S",
+		"lineName": "PVHS/Hospital"
+	},
+	{
+		"lineNum": "75",
+		"lineName": "Green Valley - Wheelock"
+	},
+	{
+		"lineNum": "79",
+		"lineName": "East Lake/Crestview"
+	},
+	{
+		"lineNum": "79F",
+		"lineName": "County Fair"
+	},
+	{
+		"lineNum": "91X",
+		"lineName": "Cabrillo Express",
+		"lineDirection": "outbound"
+	},
+	{
+		"lineNum": "91X",
+		"lineName": "Cabrillo Express",
+		"lineDirection": "inbound"
+	},
+	{
+		"lineNum": "WC",
+		"lineName": "Watsonville Circulator"
+	}
+	]
+}
