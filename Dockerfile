@@ -18,5 +18,5 @@ COPY Scraper.py Scraper.py
 COPY wrapper.sh wrapper.sh
 COPY swagger.json swagger.json
 COPY webstops.txt webstops.txt
-EXPOSE 3000
+EXPOSE 8080
 CMD ./wrapper.sh
