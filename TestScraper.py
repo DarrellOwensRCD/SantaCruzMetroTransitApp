@@ -118,15 +118,29 @@ def sendRequest(data):
     soup = BeautifulSoup(page.content, "html.parser")
     job_elements = soup.find_all("ul")
     eta_times = []
-
+    names = []
+    #First find the bound names for each bus with a unique terminus
+    for name_element in name_elements:
+            bound = re.search('[0-9]+-[0-9]+-[0-9]+-([A-Za-z]+( [A-Za-z]+)+)', str(name_element))
+            if bound:
+                names.append(bound.group(1))
+    #Then the bus arrival ETA
     for job_element in job_elements:
         buses = job_element.find_all("li", class_=None)
-        for bus in buses:  # note lists of size 0 wont be iterated, of which there are several
-            # This is to print out <li> bus arrival stops </li>
+        for bus in buses: #note lists of size 0 wont be iterated, of which there are several
+            #This is to print out <li> bus arrival stops </li>
             word = (str(bus).replace('<li>', '')).replace('</li>', '')
-            eta_times.append(word)  # Appending to JSON list
+            time = re.search('arrives in (.+?) minutes at', word)
+            if time:
+                eta_times.append(time.group(1)) #Appending to JSON list
+            else:
+                #could be an arrival bus
+                if 'arriving' in str(word):
+                    eta_times.append('arriving')
+            break
         bus_results = {"line": line_request,
-                       "ETA": eta_times}
+                        "ETA": eta_times,
+                       "names" : names}
     sio.emit('listResponse', bus_results)
     exit(0)
 
