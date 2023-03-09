@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 
 const hostname = '0.0.0.0';
-const backedport = 8080;
 
+const backedport = 8080;
 const fs = require('fs');
 
 const swaggerUi = require('swagger-ui-express');
@@ -78,7 +78,7 @@ io.on("connection", (socket) => {
         const req_name = req.query.stopName
         const req_dir = req.query.lineDir || "outbound"
         socket.emit("sendRequest", { line: req_line, stop: req_name, direction: req_dir})
-        // ...
+
         socket.once("listResponse", (output) => {
             console.log('GotResponse.')
             const res_ETA = output.ETA[0].split(" ")[4]
