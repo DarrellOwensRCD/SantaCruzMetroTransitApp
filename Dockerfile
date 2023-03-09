@@ -6,17 +6,16 @@ RUN apt update \
     python3-pip
 
 WORKDIR /
+ENV APP_HOME /app
+WORKDIR $APP_HOME
 
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 
 RUN pip install bs4
 RUN pip install "python-socketio[client]"
 
-COPY Backend.js Backend.js
-COPY Scraper.py Scraper.py
-COPY wrapper.sh wrapper.sh
-COPY swagger.json swagger.json
-COPY webstops.txt webstops.txt
+COPY . ./
 EXPOSE 8080
-CMD ./wrapper.sh
+RUN chmod +x wrapper.sh
+CMD ["./wrapper.sh"]
