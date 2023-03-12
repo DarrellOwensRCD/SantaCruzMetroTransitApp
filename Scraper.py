@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import socketio
 import sys
 import time
+time.sleep(1)
 sio = socketio.Client()
 @sio.event
 def establish(data):
@@ -210,4 +211,12 @@ def sendStopRequest(data):
         outfile.close()
     sio.emit('listStopResponse', bus_stops_list)
 
-sio.connect('http://localhost:5000')
+isConnected = False
+while not isConnected:
+    try:
+        sio.connect('http://localhost:5000')
+        isConnected = True
+    except:
+        print("Waiting to connect...")
+        time.sleep(1)
+
