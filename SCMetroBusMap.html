@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>CSE 115A Project Map</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+     <script type="text/javascript" src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+      <script type="text/javascript" src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css">
+      <link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.css">
+  <style id="compiled-css" type="text/css">
+      
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h2,
+      h3 {
+        margin: 10px;
+        font-size: 1.2em;
+      }
+      h3 {
+        font-size: 1em;
+      }
+      p {
+        font-size: 0.85em;
+        margin: 10px;
+        text-align: left;
+      }
+      .map-overlay {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.8);
+        margin-right: 20px;
+        font-family: Arial, sans-serif;
+        overflow: auto;
+        border-radius: 3px;
+      }
+      .map{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      #features {
+        top: 0;
+        height: 150px;
+        margin-top: 55px;
+        width: 250px;
+      }
+      #layerlist {
+        top: 0;
+        left: 0;
+        height: 200px;
+        margin-top: 20px;
+        width: 250px;
+      }
+    /* EOS */
+  </style>
+  <script id="insert"></script>
+</head>
+<body>
+  <!-- Load the `mapbox-gl-geocoder` plugin. -->
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css" type="text/css">
+    <div id="comparison-container">
+  <div id="before" class="map"></div>
+  <div id="after" class="map"></div>
+  </div>
+<div class="map-overlay" id="features">
+  <h4>
+  Example Lines. Front End should get ID from JSON via back end, akin to drop down list here, and line will render.
+  </h4>
+  <select id='layerpicker' style = "width:200px;">
+<option value=180004> 18 - Mission </option>
+<option value=loop> UCSC Loop</option>
+  </select>
+</div>
+<div class="map-overlay" id="legend"></div>
+    <script type="text/javascript">//<![CDATA[
+      // define access token
+      mapboxgl.accessToken = 'pk.eyJ1IjoiaWRvdGhldGhpbmtpbmciLCJhIjoiY2xmNTA4dTlxMGt0ZjNzbzdva2NwM3g1ZSJ9.pO_lTLllGCYHhmBaxxcVsg';
+      //create map
+      var map = new mapboxgl.Map({
+        container: 'after', // container id
+        style: 'mapbox://styles/idothethinking/clf3aqgom002a01ti8cudg1hi', // mapstyle URL from Mapbox Studio
+        center:[-122.018,36.981],
+        zoom: 12.14,
+      });
+    // Geocode
+      map.addControl(
+        new MapboxGeocoder({
+          accessToken: mapboxgl.accessToken,
+          mapboxgl: mapboxgl
+        })
+      );      
+      //Controls 
+      var nav1 = new mapboxgl.NavigationControl();
+      map.addControl(nav1, 'top-left');
+      const selectElement = document.querySelector('#layerpicker');
+      selectElement.addEventListener('change', (event) => {
+        //console.log(event.target.value)
+        selectedLayer = event.target.value
+        mapLayers.forEach(l => map.setLayoutProperty(l, "visibility", "none"))
+        map.setLayoutProperty(event.target.value, "visibility", "visible")
+      });
+      let mapLayers = [ "loop","180004"]
+      //Setting multimap
+      map.on('load', function() {
+        // make a pointer cursor
+        map.getCanvas().style.cursor = 'default';
+      })
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "oyq6pjae"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body>
+</html>
