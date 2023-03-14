@@ -2,8 +2,8 @@
   "swagger": "2.0",
   "info": {
     "version": "3.0.3",
-    "title": "My User Project CRUD",
-    "description": "My User Project Application API",
+    "title": "Transit-App",
+    "description": "Public Transit Lines and Schedules",
     "license": {
       "name": "MIT",
       "url": "https://opensource.org/licenses/MIT"
@@ -43,20 +43,6 @@
             "description": "OK",
             "schema": {
               "$ref": "#/definitions/Line"
-            }
-          }
-        }
-      }
-    },
-	"/stop": {
-      "get": {
-        "tags": ["stop"],
-        "summary": "Request for stop list",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "schema": {
-              "$ref": "#/definitions/Stop"
             }
           }
         }
