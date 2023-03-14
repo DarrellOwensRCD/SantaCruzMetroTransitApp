@@ -9,7 +9,7 @@
       "url": "https://opensource.org/licenses/MIT"
     }
   },
-  "host": "127.0.0.1:3000",
+  "host": "transit-app-backend-lybtu35apa-uw.a.run.app",
   "basePath": "/",
   "tags": [
     {

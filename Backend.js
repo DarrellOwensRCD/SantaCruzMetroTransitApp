@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
 
 const hostname = '0.0.0.0';
@@ -15,6 +16,8 @@ const swaggerDocument = require('./swagger.json');
 const ioport = 5000;
 const { Server } = require("socket.io");
 const io = new Server(ioport, { /* options */ });
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     console.log('Incomming request')
