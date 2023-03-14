@@ -18,6 +18,22 @@ def establish(data):
     print("I'm connected!")
 
 @sio.event
+def buscode(string):
+    #This gets the bus bound code to generate the map
+    count = 0
+    new_str = ""
+    for i in range(0, len(string)):
+        if(count == 1):
+            #covert center values to zero so that Mapbox Recognizes it 74-11-55 -> 75-00-55
+            new_str = new_str + '0'
+        if(count == 3):
+            break
+        if(string[i] == "-"):
+            count = count + 1
+        else:
+            if(count != 1):
+                new_str = new_str + string[i]
+    return new_str
 def sendRequest(data):
     routes = {"4": "4347",
           "10": "4354",
@@ -112,23 +128,42 @@ def sendRequest(data):
             break
     stop_URL = stop_URL.replace("\n", "")
     # Assemble final URL
-    stop_url = "/stops/" + stop_URL + "/pattern"
+    stop_url = "/stops/"+ stop_URL + "/pattern"
     URL = URL + stop_url
-    print(URL)
-    # With the completed URL, call web scrapper
+    #With the completed URL, call web scrapper
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, "html.parser")
     job_elements = soup.find_all("ul")
+    name_elements = soup.find_all("span")
     eta_times = []
-
+    names = []
+    map_codes = []
+    #First find the bound names for each bus with a unique terminus
+    for name_element in name_elements:
+            bound = re.search('[A-Za-z0-9]+-[0-9]+-[0-9]+-([A-Za-z]+( [A-Za-z]+)+)', str(name_element))
+            map_code = buscode(str(name_element))
+            map_code = map_code.replace("<span>", "")
+            map_codes.append(map_code.lower()) #mapbox converts all uppercase to lower
+            if bound:
+                names.append(bound.group(1))
+    #Then the bus arrival ETA
     for job_element in job_elements:
         buses = job_element.find_all("li", class_=None)
-        for bus in buses:  # note lists of size 0 wont be iterated, of which there are several
-            # This is to print out <li> bus arrival stops </li>
+        for bus in buses: #note lists of size 0 wont be iterated, of which there are several
+            #This is to print out <li> bus arrival stops </li>
             word = (str(bus).replace('<li>', '')).replace('</li>', '')
-            eta_times.append(word)  # Appending to JSON list
+            time = re.search('arrives in (.+?) minutes at', word)
+            if time:
+                eta_times.append(time.group(1)) #Appending to JSON list
+            else:
+                #could be an arrival bus
+                if 'arriving' in str(word):
+                    eta_times.append('arriving')
+            break
         bus_results = {"line": line_request,
-                       "ETA": eta_times}
+                        "ETA": eta_times,
+                       "names" : names,
+                       "map_codes" : map_codes}
     sio.emit('listResponse', bus_results)
 
 @sio.event
