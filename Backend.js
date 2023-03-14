@@ -43,36 +43,28 @@ io.on("connection", (socket) => {
         }
         else{
             console.log('Query requests stops for %s, %s %s.', req_line, req_Name, req_Dir)
+            if(req_line = "UCSC"){
+                res.json({line: "UCSC",
+                    stops:["Bay & High (UCSC - Main Entrance)","Coolidge Dr & Hagar Ct  (UCSC - Lower Campus)",
+                    "Hagar Dr & Village Rd (UCSC - The Farm)","Hagar Dr (UCSC - East Remote Parking)",
+                    "Hagar Dr (UCSC - East Field House)","Hagar Dr (UCSC - Bookstore, Cowell & Stevenson)",
+                    "McLaughlin Dr (UCSC - Crown & Merrill College)","McLaughlin Dr (UCSC - College 9 & 10 / Health Ctr)",
+                    "McLaughlin Dr (UCSC - Science Hill)","Heller Dr & McLaughlin Dr (UCSC - Kresge College)",
+                    "Heller Dr (UCSC - Rachel Carson College & Porter)","Heller Dr (UCSC - Family Student Housing)",
+                    "Heller Dr (UCSC - Oakes College)","Empire Grade (UCSC - Arboretum)","High (Tosca Terrace)",
+                    "High & Western Dr","High & Bay Dr"]
+                })
+            }
+            else{
                 socket.emit("sendStopRequest", { line: req_line, direction: req_Dir})
                 // ... {lineNum: req_line, lineName: req_Name, lineDir: req_Dir, Stops: stop_list}
                 socket.once("listStopResponse", (output) => {
                     console.log('GotResponse.')
-                    res.json(output)
+                    res.json({lineNum: req_line, lineDir: req_dir, ETA: res_ETA, nextBusTime: res_time, names: output.names})
                 });
         }
-    })
-
-
-
-    // Request for stop list
-    app.get('/stop', (req, res) => {
-        console.log('Incomming request for stops.')
-        const req_ID = req.query.stopID
-        const req_Name = req.query.stopName
-        //if req_stop is null send list
-        if(Object.keys(req.query).length === 0){
-            let rawdata = fs.readFileSync('StopList.json');
-            let stoplist = JSON.parse(rawdata);
-            res.json(stoplist)
-        }
-        else{
-            console.log('Query requests lines for stop %s, %s.', req_ID, req_Name)
-            const line_list = //Call to line
-            res.json({stopID: req_ID, stopName: req_Name, Lines: line_list})
-        }
-        //If not, send stop with lines
-    })
-
+    }
+})
 
     app.get('/linestop', (req, res) => {
         console.log('Incomming request for times.')
@@ -84,9 +76,7 @@ io.on("connection", (socket) => {
 
         socket.once("listResponse", (output) => {
             console.log('GotResponse.')
-            const res_ETA = output.ETA[0].split(" ")[4]
-            const res_time = output.ETA[0].split(" ")[7]
-            res.json({lineNum: req_line, lineDir: req_dir, ETA: res_ETA, nextBusTime: res_time})
+            res.json({lineNum: req_line, lineDir: req_dir, ETAs: output.ETA, names:output.names, map_codes:output.map_codes})
         });
     })
 
