@@ -1,8 +1,8 @@
 {
 	"LineList":[
 	{
-		"lineNum": "4",
-		"lineName": "River/Harvey West"
+		"lineNum": "UCSC",
+		"lineName": "UCSC Loop"
 	},
 	{
 		"lineNum": "10",
@@ -27,6 +27,10 @@
 	{
 		"lineNum": "20",
 		"lineName": "UCSC via Main Gate – Delaware/Western"
+	},
+	{
+		"lineNum": "4",
+		"lineName": "River/Harvey West"
 	},
 	{
 		"lineNum": "35",
