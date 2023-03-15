@@ -441,7 +441,7 @@ def loopRequest(indata):
 ]
 
     name = []
-    eta = []
+    eta_list = []
     dire = []
     map_codes = []
 
@@ -464,7 +464,7 @@ def loopRequest(indata):
                     eta = math.ceil(distance / 0.00158264808093)
                     nextBusTime = parser.parse(bus["lastPing"]) + timedelta(minutes=eta)
             name.append(closest_stop)
-            eta.append(eta)
+            eta_list.append(eta)
             dire.append(direction)
             map_codes.append("loop")
    
