@@ -14,6 +14,7 @@ RUN npm install
 
 RUN pip install bs4
 RUN pip install "python-socketio[client]"
+RUN pip install python-dateutil
 
 COPY . ./
 EXPOSE 8080
