@@ -440,7 +440,10 @@ def loopRequest(indata):
     }
 ]
 
-    response = []
+    name = []
+    eta = []
+    dire = []
+    map_codes = []
 
     for bus in buses:
         if (bus["route"] != "OUT OF SERVICE/SORRY") and (bus["route"] != "LOOP OUT OF SERVICE AT BARN THEATER") and (bus["id"] != "90"):
@@ -460,9 +463,12 @@ def loopRequest(indata):
                     direction = stop["direction"]
                     eta = math.ceil(distance / 0.00158264808093)
                     nextBusTime = parser.parse(bus["lastPing"]) + timedelta(minutes=eta)
-            response.append({"Bus ID":bus["id"], "stopName":closest_stop, "direction":direction, "ETA":eta})
+            name.append(closest_stop)
+            eta.append(eta)
+            dire.append(direction)
+            map_codes.append("loop")
    
-    sio.emit('loopResponse', {"bus":response})
+    sio.emit('loopResponse', {"ETA":eta,"names":name,"Direction":dire, "map_codes":map_codes})
     
 isConnected = False
 while not isConnected:
