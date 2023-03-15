@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 import socketio
 import sys
 import time
-time.sleep(1)
+
 sio = socketio.Client()
 @sio.event
 def establish(data):
