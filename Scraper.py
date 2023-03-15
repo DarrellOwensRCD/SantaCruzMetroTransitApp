@@ -23,7 +23,7 @@ def buscode(string):
     count = 0
     new_str = ""
     for i in range(0, len(string)):
-        if(count == 1):
+        if(count == 1 and string[i] != "-"):
             #covert center values to zero so that Mapbox Recognizes it 74-11-55 -> 75-00-55
             new_str = new_str + '0'
         if(count == 3):
