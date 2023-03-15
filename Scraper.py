@@ -11,6 +11,9 @@ from bs4 import BeautifulSoup
 import socketio
 import sys
 import time
+import math
+from datetime import datetime, timedelta
+from dateutil import parser
 
 sio = socketio.Client()
 @sio.event
@@ -248,6 +251,219 @@ def stopRequest(data):
         outfile.close()
     sio.emit('listStopResponse', bus_stops_list)
 
+    
+@sio.event
+def loopRequest(indata):
+    time.sleep(3) #wait for curl to finish
+    with open('./current_loops.txt') as infile:
+        data = infile.read()
+
+    buses = json.loads(data)
+
+    with open('./current_loops.txt','w') as inf:
+        json.dump(buses,inf, indent=4)
+
+    stops = [
+    {
+        "name": "Bay & High (UCSC - Main Entrance)",
+        "latitude": 36.977704,
+        "longitude": -122.053602,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Coolidge Dr & Hagar Ct (UCSC - Lower Campus)",
+        "latitude": 36.981409,
+        "longitude": -122.051967,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Coolidge Dr & Hagar Ct (UCSC - Lower Campus)",
+        "latitude": 36.981523,
+        "longitude": -122.052074,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Hagar Dr & Village Rd (UCSC - The Farm)",
+        "latitude": 36.9859,
+        "longitude": -122.053572,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Hagar Dr & Village Rd (UCSC - The Farm)",
+        "latitude": 36.985565,
+        "longitude": -122.053507,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Hagar Dr (UCSC - East Remote Parking)",
+        "latitude": 36.991307,
+        "longitude": -122.054713,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Hagar Dr (UCSC - East Remote Parking)",
+        "latitude": 36.991307,
+        "longitude": -122.054713,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Hagar Dr (UCSC - East Field House)",
+        "latitude": 36.994266,
+        "longitude": -122.055578,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Hagar Dr (UCSC - Bookstore, Cowell & Stevenson)",
+        "latitude": 36.996664,
+        "longitude": -122.055388,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Hagar Dr (UCSC - Bookstore, Cowell & Stevenson)",
+        "latitude": 36.997499,
+        "longitude": -122.055084,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "McLaughlin Dr (UCSC - Crown & Merrill College)",
+        "latitude": 36.998969,
+        "longitude": -122.055202,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "McLaughlin Dr (UCSC - College 9 & 10 / Health Ctr)",
+        "latitude": 36.999877,
+        "longitude": -122.058458,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "McLaughlin Dr (UCSC - College 9 & 10 / Health Ctr)",
+        "latitude": 36.999798,
+        "longitude": -122.05831,
+        "direction": "clockwise"
+    },
+    {
+        "name": "McLaughlin Dr (UCSC - Science Hill)",
+        "latitude": 36.999903,
+        "longitude": -122.062318,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "McLaughlin Dr (UCSC - Science Hill)",
+        "latitude": 36.99989,
+        "longitude": -122.062139,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Heller Dr & McLaughlin Dr (UCSC - Kresge College)",
+        "latitude": 36.999305,
+        "longitude": -122.064501,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Heller Dr & McLaughlin Dr (UCSC - Kresge College)",
+        "latitude": 36.999333,
+        "longitude": -122.064323,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Heller Dr (UCSC - Kerr Hall)",
+        "latitude": 36.996712,
+        "longitude": -122.063616,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Heller Dr (UCSC - Rachel Carson College & Porter)",
+        "latitude": 36.992945,
+        "longitude": -122.06527,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Heller Dr (UCSC - Rachel Carson College & Porter)",
+        "latitude": 36.992857,
+        "longitude": -122.064712,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Heller Dr (UCSC - Family Student Housing)",
+        "latitude": 36.991804,
+        "longitude": -122.066755,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Heller Dr (UCSC - Oakes College)",
+        "latitude": 36.990604,
+        "longitude": -122.066152,
+        "direction": "clockwise"
+    },
+    {
+        "name": "Heller Dr (UCSC - Oakes College)",
+        "latitude": 36.989903,
+        "longitude": -122.06719,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Empire Grade & Arboretum Access Trail",
+        "latitude": 36.983683,
+        "longitude": -122.064902,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "Empire Grade (UCSC - Arboretum)",
+        "latitude": 36.98272,
+        "longitude": -122.062665,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "High (Tosca Terrace)",
+        "latitude": 36.979919,
+        "longitude": -122.059291,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "High & Western Dr",
+        "latitude": 36.978639,
+        "longitude": -122.057775,
+        "direction": "counterclockwise"
+    },
+    {
+        "name": "High & Western Dr",
+        "latitude": 36.978782,
+        "longitude": -122.057751,
+        "direction": "clockwise"
+    },
+    {
+        "name": "High & Bay Dr",
+        "latitude": 36.977314,
+        "longitude": -122.054247,
+        "direction": "clockwise"
+    }
+]
+
+    response = []
+
+    for bus in buses:
+        if (bus["route"] != "OUT OF SERVICE/SORRY") and (bus["route"] != "LOOP OUT OF SERVICE AT BARN THEATER") and (bus["id"] != "90"):
+            closest_stop = "None"
+            closest = -1
+            eta = 0
+            nextBusTime = "error"
+            for stop in stops:
+                #print("Last Latitude:", lastLatitude,"Last Longitude:", lastLongitude, "Stop Latitude:",stop['latitude'],"Stop Longitude:",stop['longitude'])
+                distance = math.dist([bus["lastLatitude"],bus["lastLongitude"]],[stop['latitude'],stop['longitude']])
+                prevDist = math.dist([bus["previousLatitude"],bus["previousLongitude"]],[stop['latitude'],stop['longitude']])
+                #print("Distance:",distance,"to stop",stop["name"])
+                #print("Closest:",closest,"to stop",closest_stop)
+                if ((distance < closest) and (distance < prevDist)) or (closest == -1):
+                    closest = distance
+                    closest_stop = stop["name"]
+                    direction = stop["direction"]
+                    eta = math.ceil(distance / 0.00158264808093)
+                    nextBusTime = parser.parse(bus["lastPing"]) + timedelta(minutes=eta)
+            response.append({"Bus ID":bus["id"], "stopName":closest_stop, "direction":direction, "ETA":eta})
+   
+    sio.emit('loopResponse', {"bus":response})
+    
 isConnected = False
 while not isConnected:
     try:
