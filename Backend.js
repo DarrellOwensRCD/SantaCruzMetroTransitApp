@@ -56,7 +56,7 @@ io.on("connection", (socket) => {
                 })
             }
             else{
-                socket.emit("sendStopRequest", { line: req_line, direction: req_Dir})
+                socket.emit("stopRequest", { line: req_line, direction: req_Dir})
                 // ... {lineNum: req_line, lineName: req_Name, lineDir: req_Dir, Stops: stop_list}
                 socket.once("listStopResponse", (output) => {
                     console.log('GotResponse.')
@@ -72,7 +72,12 @@ io.on("connection", (socket) => {
         const req_stop = req.query.stopID
         const req_name = req.query.stopName
         const req_dir = req.query.lineDir || "outbound"
-        socket.emit("sendRequest", { line: req_line, stop: req_name, direction: req_dir})
+        if (req_line = "UCSC") {
+            socket.emit("loopRequest", { line: req_line, stop: req_name, direction: req_dir })
+        }
+        else {
+            socket.emit("etaRequest", { line: req_line, stop: req_name, direction: req_dir })
+        }
 
         socket.once("listResponse", (output) => {
             console.log('GotResponse.')

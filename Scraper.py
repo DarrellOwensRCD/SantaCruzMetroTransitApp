@@ -17,7 +17,7 @@ sio = socketio.Client()
 def establish(data):
     print("I'm connected!")
 
-@sio.event
+
 def buscode(string):
     #This gets the bus bound code to generate the map
     count = 0
@@ -34,7 +34,9 @@ def buscode(string):
             if(count != 1):
                 new_str = new_str + string[i]
     return new_str
-def sendRequest(data):
+
+@sio.event
+def etaRequest(data):
     routes = {"4": "4347",
           "10": "4354",
           "15": "4356",
@@ -167,7 +169,7 @@ def sendRequest(data):
     sio.emit('listResponse', bus_results)
 
 @sio.event
-def sendStopRequest(data):
+def stopRequest(data):
     routes = { "4" : "4347",
     "10" : "4354",
     "15" : "4356",
