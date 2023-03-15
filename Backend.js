@@ -4,6 +4,8 @@ const app = express()
 
 const hostname = '0.0.0.0';
 
+const { exec } = require('node:child_process');
+
 const backedport = 8080;
 const fs = require('fs');
 
@@ -45,7 +47,6 @@ io.on("connection", (socket) => {
             console.log('Query requests stops for %s, %s %s.', req_line, req_Name, req_Dir)
             if(req_line === "UCSC"){
                  // if received request for loop busses, return list of UCSC stops
-                console.log('Got UCSC line returning.')
                 res.json({line: "UCSC",
                     stops:["Bay & High (UCSC - Main Entrance)","Coolidge Dr & Hagar Ct  (UCSC - Lower Campus)",
                     "Hagar Dr & Village Rd (UCSC - The Farm)","Hagar Dr (UCSC - East Remote Parking)",
@@ -58,7 +59,7 @@ io.on("connection", (socket) => {
                 })
             }
             else{
-                console.log('METRO line received.')
+                console.log('METRO line.')
                 socket.emit("stopRequest", { line: req_line, direction: req_Dir})
                 // ... {lineNum: req_line, lineName: req_Name, lineDir: req_Dir, Stops: stop_list}
                 socket.once("listStopResponse", (output) => {
@@ -76,6 +77,7 @@ io.on("connection", (socket) => {
         const req_name = req.query.stopName
         const req_dir = req.query.lineDir || "outbound"
         if (req_line === "UCSC") {
+            exec('./processLoops.sh')
             socket.emit("loopRequest", { line: req_line, stop: req_name, direction: req_dir })
         }
         else {
@@ -85,6 +87,10 @@ io.on("connection", (socket) => {
         socket.once("listResponse", (output) => {
             console.log('GotResponse.')
             res.json({lineNum: req_line, lineDir: req_dir, ETAs: output.ETA, names:output.names, map_codes:output.map_codes})
+        });
+        socket.once("loopResponse", (output) => {
+            console.log('GotResponse.')
+            res.json(output)
         });
     })
 
