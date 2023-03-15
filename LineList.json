@@ -34,27 +34,15 @@
 	},
 	{
 		"lineNum": "35",
-		"lineName": "Highway 9/Scotts Valley",
-		"lineDirection": "outbound"
-	},
-	{
-		"lineNum": "35",
-		"lineName": "Highway 9/Scotts Valley",
-		"lineDirection": "inbound"
+		"lineName": "Highway 9/Scotts Valley"
 	},
 	{
 		"lineNum": "35E",
-		"lineName": "Highway 9/Scotts Valley via Emeline",
-		"lineDirection": "outbound"
-	},
-	{
-		"lineNum": "35E",
-		"lineName": "Highway 9/Scotts Valley via Emeline",
-		"lineDirection": "inbound"
+		"lineName": "Highway 9/Scotts Valley via Emeline"
 	},
 	{
 		"lineNum": "40",
-		"lineName": "Highway 9/Scotts Valley via Emeline"
+		"lineName": "Highway 1/Davenport"
 	},
 	{
 		"lineNum": "41",
@@ -114,13 +102,7 @@
 	},
 	{
 		"lineNum": "91X",
-		"lineName": "Cabrillo Express",
-		"lineDirection": "outbound"
-	},
-	{
-		"lineNum": "91X",
-		"lineName": "Cabrillo Express",
-		"lineDirection": "inbound"
+		"lineName": "Cabrillo Express"
 	},
 	{
 		"lineNum": "WC",
