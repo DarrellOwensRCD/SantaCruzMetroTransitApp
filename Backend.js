@@ -45,6 +45,7 @@ io.on("connection", (socket) => {
             console.log('Query requests stops for %s, %s %s.', req_line, req_Name, req_Dir)
             if(req_line === "UCSC"){
                  // if received request for loop busses, return list of UCSC stops
+                console.log('Got UCSC line returning.')
                 res.json({line: "UCSC",
                     stops:["Bay & High (UCSC - Main Entrance)","Coolidge Dr & Hagar Ct  (UCSC - Lower Campus)",
                     "Hagar Dr & Village Rd (UCSC - The Farm)","Hagar Dr (UCSC - East Remote Parking)",
@@ -57,6 +58,7 @@ io.on("connection", (socket) => {
                 })
             }
             else{
+                console.log('METRO line received.')
                 socket.emit("stopRequest", { line: req_line, direction: req_Dir})
                 // ... {lineNum: req_line, lineName: req_Name, lineDir: req_Dir, Stops: stop_list}
                 socket.once("listStopResponse", (output) => {
