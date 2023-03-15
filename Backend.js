@@ -60,7 +60,7 @@ io.on("connection", (socket) => {
                 // ... {lineNum: req_line, lineName: req_Name, lineDir: req_Dir, Stops: stop_list}
                 socket.once("listStopResponse", (output) => {
                     console.log('GotResponse.')
-                    res.json({lineNum: req_line, lineDir: req_dir, ETA: res_ETA, nextBusTime: res_time, names: output.names})
+                    res.json(output)
                 });
         }
     }
