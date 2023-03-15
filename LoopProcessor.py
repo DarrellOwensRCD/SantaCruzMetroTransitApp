@@ -23,20 +23,14 @@ response = []
 
 for bus in buses:
     if (bus["route"] != "OUT OF SERVICE/SORRY") and (bus["route"] != "LOOP OUT OF SERVICE AT BARN THEATER") and (bus["id"] != "90"):
-        bid = bus["id"]
-        lastLatitude = bus["lastLatitude"]
-        lastLongitude = bus["lastLongitude"]
-        route = bus["route"]
-        prevLatitude = bus["previousLatitude"]
-        prevLongitude = bus["previousLongitude"]
         closest_stop = "None"
         closest = -1
         eta = 0
-        nextBusTime = "who knows"
+        nextBusTime = "error"
         for stop in stops:
             #print("Last Latitude:", lastLatitude,"Last Longitude:", lastLongitude, "Stop Latitude:",stop['latitude'],"Stop Longitude:",stop['longitude'])
-            distance = math.dist([lastLatitude,lastLongitude],[stop['latitude'],stop['longitude']])
-            prevDist = math.dist([prevLatitude,prevLongitude],[stop['latitude'],stop['longitude']])
+            distance = math.dist([bus["lastLatitude"],bus["lastLongitude"]],[stop['latitude'],stop['longitude']])
+            prevDist = math.dist([bus["previousLatitude"],bus["previousLongitude"]],[stop['latitude'],stop['longitude']])
             #print("Distance:",distance,"to stop",stop["name"])
             #print("Closest:",closest,"to stop",closest_stop)
             if ((distance < closest) and (distance < prevDist)) or (closest == -1):
@@ -45,7 +39,7 @@ for bus in buses:
                 direction = stop["direction"]
                 eta = math.ceil(distance / 0.00158264808093)
                 nextBusTime = parser.parse(bus["lastPing"]) + timedelta(minutes=eta)
-        response.append({"Bus ID":bid, "stopName":closest_stop, "direction":direction, "ETA":eta, "nextBusTime":nextBusTime})
+        response.append({"Bus ID":bus["id"], "stopName":closest_stop, "direction":direction, "ETA":eta, "nextBusTime":nextBusTime})
 
 with open('./loopETAs.txt','w') as outfile:
     json.dump(response,outfile,indent=4, sort_keys=True, default=str)
