@@ -90,7 +90,7 @@ io.on("connection", (socket) => {
         });
         socket.once("loopResponse", (output) => {
             console.log('GotResponse.')
-            res.json(output)
+            res.json({lineNum: req_line, lineDir: output.Direction, ETAs: output.ETA, names:output.names, map_codes:output.map_codes})
         });
     })
 
