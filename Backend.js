@@ -75,7 +75,7 @@ io.on("connection", (socket) => {
         const req_stop = req.query.stopID
         const req_name = req.query.stopName
         const req_dir = req.query.lineDir || "outbound"
-        if (req_line = "UCSC") {
+        if (req_line === "UCSC") {
             socket.emit("loopRequest", { line: req_line, stop: req_name, direction: req_dir })
         }
         else {
