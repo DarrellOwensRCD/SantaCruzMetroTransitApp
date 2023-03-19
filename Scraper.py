@@ -19,6 +19,7 @@ sio = socketio.Client()
 @sio.event
 def establish(data):
     print("I'm connected!")
+    time.sleep(1)
 
 
 def buscode(string):
