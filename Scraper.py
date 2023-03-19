@@ -165,10 +165,10 @@ def etaRequest(data):
                 if 'arriving' in str(word):
                     eta_times.append('arriving')
             break
-        bus_results = {"line": line_request,
-                        "ETA": eta_times,
-                       "names" : names,
-                       "map_codes" : map_codes}
+    bus_results = {"line": line_request,
+                    "ETA": eta_times,
+                   "names" : names,
+                   "map_codes" : map_codes}
     sio.emit('listResponse', bus_results)
 
 @sio.event
